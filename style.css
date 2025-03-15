@@ -16,14 +16,7 @@ p{
 .orange-highlight{
     color: orange;
 }
-.link-button{
-	text-decoration: none;
-	background-image: linear-gradient(45deg, lightSalmon, tomato);
-	padding: 10px 20px;
-    border-radius: 5px;
-    color: white;
-    font-weight: 700;
-}
+
 .half-width{
     width: 40%;
     float: left;
@@ -62,7 +55,33 @@ section{
     height: 500px;
     padding-bottom: 150px;
 }
-
+#m{
+    margin: 0;
+    padding: 0;
+}
+.link-button{
+	text-decoration: none;
+	background-image: linear-gradient(0deg, lightSalmon, tomato);
+	padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+i{
+    background: transparent;
+    border: 2px solid lightsalmon;
+    border-radius: 50%;
+    font-size: 30px;
+    color: lightsalmon;
+    margin: 20px 10px 20px 0;
+    text-align: center;
+    
+}
+i:hover{
+    background: lightsalmon;
+    color: pink;
+    box-shadow: 0 0 20px lightsalmon;
+}
 footer p{
     text-align: center;
     font-size: 12px;
